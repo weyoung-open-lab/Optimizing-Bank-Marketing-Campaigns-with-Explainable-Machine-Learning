@@ -1,0 +1,2 @@
+best_model_name,selection_split,selection_k,precision_at_k,lift_at_k,base_rate
+DecisionTree,month_aware,0.1,0.6840215439856373,3.5415279010631835,0.19314306228684258

@@ -1,0 +1,2 @@
+model,split,topk_frac,n_topk,mean_predicted_score_topk,observed_conversion_topk,tuned_params_json
+CatBoost,month_aware,0.1,557,0.7299497422407963,0.6750448833034112,"{""learning_rate"": 0.08, ""l2_leaf_reg"": 5, ""iterations"": 200, ""depth"": 5}"

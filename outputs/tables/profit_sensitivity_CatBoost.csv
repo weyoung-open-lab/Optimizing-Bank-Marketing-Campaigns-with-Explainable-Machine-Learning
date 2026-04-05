@@ -1,0 +1,10 @@
+V,C,threshold,n_total,n_contacted,contact_rate,observed_conversion_rate_contacted,expected_profit_total,realized_profit_total,realized_profit_per_customer,model,split,tuned_params_json
+50,1,0.02,5571,5571,1.0,0.19314306228684258,55617.70009443621,48229.0,8.65715311434213,CatBoost,month_aware,"{""learning_rate"": 0.08, ""l2_leaf_reg"": 5, ""iterations"": 200, ""depth"": 5}"
+50,2,0.04,5571,5488,0.9851014180577993,0.19260204081632654,50072.40116517483,41874.0,7.516424340333872,CatBoost,month_aware,"{""learning_rate"": 0.08, ""l2_leaf_reg"": 5, ""iterations"": 200, ""depth"": 5}"
+50,5,0.1,5571,2156,0.3870041285227069,0.40166975881261596,37303.64327317537,32520.0,5.837372105546581,CatBoost,month_aware,"{""learning_rate"": 0.08, ""l2_leaf_reg"": 5, ""iterations"": 200, ""depth"": 5}"
+100,1,0.01,5571,5571,1.0,0.19314306228684258,116806.40018887242,102029.0,18.31430622868426,CatBoost,month_aware,"{""learning_rate"": 0.08, ""l2_leaf_reg"": 5, ""iterations"": 200, ""depth"": 5}"
+100,2,0.02,5571,5571,1.0,0.19314306228684258,111235.40018887242,96458.0,17.31430622868426,CatBoost,month_aware,"{""learning_rate"": 0.08, ""l2_leaf_reg"": 5, ""iterations"": 200, ""depth"": 5}"
+100,5,0.05,5571,5322,0.9553042541733979,0.19316046599022924,94716.59148256814,76190.0,13.676180218991204,CatBoost,month_aware,"{""learning_rate"": 0.08, ""l2_leaf_reg"": 5, ""iterations"": 200, ""depth"": 5}"
+200,2,0.01,5571,5571,1.0,0.19314306228684258,233612.80037774483,204058.0,36.62861245736852,CatBoost,month_aware,"{""learning_rate"": 0.08, ""l2_leaf_reg"": 5, ""iterations"": 200, ""depth"": 5}"
+200,5,0.025,5571,5569,0.9996409980254891,0.1930328604776441,216900.84467592716,187155.0,33.594507269789986,CatBoost,month_aware,"{""learning_rate"": 0.08, ""l2_leaf_reg"": 5, ""iterations"": 200, ""depth"": 5}"
+200,10,0.05,5571,5322,0.9553042541733979,0.19316046599022924,189433.18296513628,152380.0,27.35236043798241,CatBoost,month_aware,"{""learning_rate"": 0.08, ""l2_leaf_reg"": 5, ""iterations"": 200, ""depth"": 5}"

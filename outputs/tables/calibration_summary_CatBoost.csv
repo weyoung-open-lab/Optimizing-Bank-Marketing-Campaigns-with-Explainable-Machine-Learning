@@ -1,0 +1,2 @@
+model,split,roc_auc,pr_auc,brier,mean_predicted_probability,observed_positive_rate,tuned_params_json
+CatBoost,month_aware,0.7971154442565263,0.5617044138043946,0.11605206725145426,0.21966864151655435,0.19314306228684258,"{""learning_rate"": 0.08, ""l2_leaf_reg"": 5, ""iterations"": 200, ""depth"": 5}"

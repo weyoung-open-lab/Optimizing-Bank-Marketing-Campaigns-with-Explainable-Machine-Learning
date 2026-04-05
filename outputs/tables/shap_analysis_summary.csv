@@ -1,0 +1,2 @@
+model,split,topk_frac,n_topk,mean_predicted_score_topk,observed_conversion_topk
+GradientBoosting,month_aware,0.1,557,0.7194317338119073,0.6732495511669659

@@ -1,0 +1,6 @@
+model,best_score_cv,best_params_json
+GradientBoosting,0.44717837468206484,"{""model__subsample"": 0.85, ""model__n_estimators"": 200, ""model__min_samples_leaf"": 3, ""model__max_depth"": 4, ""model__learning_rate"": 0.08}"
+CatBoost,0.4488182276959232,"{""model__learning_rate"": 0.08, ""model__l2_leaf_reg"": 5, ""model__iterations"": 200, ""model__depth"": 5}"
+KNN,0.432900832657329,"{""model__weights"": ""uniform"", ""model__p"": 1, ""model__n_neighbors"": 35}"
+RandomForest,0.44586819708038755,"{""model__n_estimators"": 200, ""model__min_samples_split"": 2, ""model__min_samples_leaf"": 4, ""model__max_features"": ""sqrt"", ""model__max_depth"": 12}"
+XGBoost,0.44755374845758156,"{""model__subsample"": 0.85, ""model__reg_lambda"": 5.0, ""model__n_estimators"": 500, ""model__max_depth"": 3, ""model__learning_rate"": 0.1, ""model__colsample_bytree"": 0.7}"
